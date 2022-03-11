@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+:root{
+    --ff-primary: "Roboto", sans-serif;
+    --ff-secondary: "Open Sans", sans-serif;
+    --grey-10: hsl(210, 36%, 96%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: var(--ff-secondary);
+    background-color: var(--grey-10)    ;
+    color: hsl(209, 61%, 16%);
+}
+
+#app{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-family: var(--ff-primary);
+    font-size: 4em;
+    margin-top: 3em;
+}
+
+#number{
+    font-size: 6em;
+    font-weight: 700;
+
+}
+
+button{
+    border: 2px solid #222;
+    color: #222;
+    border-radius: .3em;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
+    font-size: 1em;
+    background-color: transparent;
+    width: 7em;
+    height: 1.9em;
+    margin-right: 1em;
+    margin-top: 2em
+}
